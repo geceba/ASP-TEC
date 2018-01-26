@@ -1,0 +1,8 @@
+C:\Users\gcetzal\Documents\ASP\U1\Ejemplo01\ProyectoUno\bin\Debug\ProyectoUno.exe.config
+C:\Users\gcetzal\Documents\ASP\U1\Ejemplo01\ProyectoUno\bin\Debug\ProyectoUno.exe
+C:\Users\gcetzal\Documents\ASP\U1\Ejemplo01\ProyectoUno\bin\Debug\ProyectoUno.pdb
+C:\Users\gcetzal\Documents\ASP\U1\Ejemplo01\ProyectoUno\obj\Debug\ProyectoUno.csprojResolveAssemblyReference.cache
+C:\Users\gcetzal\Documents\ASP\U1\Ejemplo01\ProyectoUno\obj\Debug\ProyectoUno.exe
+C:\Users\gcetzal\Documents\ASP\U1\Ejemplo01\ProyectoUno\obj\Debug\ProyectoUno.pdb
+C:\Users\gcetzal\Documents\ASP\U1\Ejemplo01\ProyectoUno\bin\Debug\Libreria.dll
+C:\Users\gcetzal\Documents\ASP\U1\Ejemplo01\ProyectoUno\bin\Debug\Libreria.pdb

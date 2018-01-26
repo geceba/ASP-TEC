@@ -1,0 +1,11 @@
+C:\Users\gcetzal\Documents\ASP\U1\Ejemplo01\ProyectoDos\bin\Debug\ProyectoDos.exe.config
+C:\Users\gcetzal\Documents\ASP\U1\Ejemplo01\ProyectoDos\bin\Debug\ProyectoDos.exe
+C:\Users\gcetzal\Documents\ASP\U1\Ejemplo01\ProyectoDos\bin\Debug\ProyectoDos.pdb
+C:\Users\gcetzal\Documents\ASP\U1\Ejemplo01\ProyectoDos\obj\Debug\ProyectoDos.csprojResolveAssemblyReference.cache
+C:\Users\gcetzal\Documents\ASP\U1\Ejemplo01\ProyectoDos\obj\Debug\ProyectoDos.Properties.Resources.resources
+C:\Users\gcetzal\Documents\ASP\U1\Ejemplo01\ProyectoDos\obj\Debug\ProyectoDos.ProyectoDos.resources
+C:\Users\gcetzal\Documents\ASP\U1\Ejemplo01\ProyectoDos\obj\Debug\ProyectoDos.csproj.GenerateResource.Cache
+C:\Users\gcetzal\Documents\ASP\U1\Ejemplo01\ProyectoDos\obj\Debug\ProyectoDos.exe
+C:\Users\gcetzal\Documents\ASP\U1\Ejemplo01\ProyectoDos\obj\Debug\ProyectoDos.pdb
+C:\Users\gcetzal\Documents\ASP\U1\Ejemplo01\ProyectoDos\bin\Debug\Libreria.dll
+C:\Users\gcetzal\Documents\ASP\U1\Ejemplo01\ProyectoDos\bin\Debug\Libreria.pdb
