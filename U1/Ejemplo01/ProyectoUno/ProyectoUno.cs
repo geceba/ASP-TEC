@@ -24,22 +24,37 @@ namespace ProyectoUno
         static void Main(string[] args)
         {
             Int16 a, b, c;
-            decimal d;
+            Int16 cantidad;
+            decimal d, promD;
             String e;
 
             Libreria.Libreria obj = new Libreria.Libreria();
+            decimal[] vector = new decimal[10];
             //Entrada de datos
-            Console.WriteLine("Ingresa el valor de a: ");
-            a = Convert.ToInt16(Console.ReadLine());
-            Console.WriteLine("Ingresa el valor de b: ");
-            b = Convert.ToInt16(Console.ReadLine());
-            Console.WriteLine("Ingresa el valor de c: ");
-            c = Convert.ToInt16(Console.ReadLine());
 
-            d = obj.calPromedio(a, b, c);
-            obj.resultadoProm(d);
+            Console.WriteLine("Cuantas veces quieres repetir");
+            cantidad = Convert.ToInt16(Console.ReadLine());
+
+            for (Int16 i = 0; i < cantidad; i++)
+            {
+                Console.WriteLine("Ingresa el valor de a: ");
+                a = Convert.ToInt16(Console.ReadLine());
+                Console.WriteLine("Ingresa el valor de b: ");
+                b = Convert.ToInt16(Console.ReadLine());
+                Console.WriteLine("Ingresa el valor de c: ");
+                c = Convert.ToInt16(Console.ReadLine());
+
+                d = obj.calPromedio(a, b, c);
+                vector[i] = d;
+                obj.resultadoProm(d);
+
+                Console.ReadLine();
+            }
+            promD = obj.calProm(vector, cantidad);
+            obj.mostrarPromProm(promD);
 
             Console.ReadLine();
+            
         }
     }
 }

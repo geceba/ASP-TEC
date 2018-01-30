@@ -80,6 +80,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\Libreria\Libreria.csproj">
       <Project>{ea6f1af3-120d-426b-af4c-6dfb5f398f6e}</Project>
       <Name>Libreria</Name>
