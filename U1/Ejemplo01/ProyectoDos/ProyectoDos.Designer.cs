@@ -37,9 +37,6 @@
             this.lblPromedio = new System.Windows.Forms.Label();
             this.lblResultado = new System.Windows.Forms.Label();
             this.btnCalc = new System.Windows.Forms.Button();
-            this.lblCuantos = new System.Windows.Forms.Label();
-            this.TxtBoxCuantos = new System.Windows.Forms.TextBox();
-            this.lblMensaje = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // valor1
@@ -120,39 +117,11 @@
             this.btnCalc.UseVisualStyleBackColor = true;
             this.btnCalc.Click += new System.EventHandler(this.btnCalc_Click);
             // 
-            // lblCuantos
-            // 
-            this.lblCuantos.AutoSize = true;
-            this.lblCuantos.Location = new System.Drawing.Point(153, 13);
-            this.lblCuantos.Name = "lblCuantos";
-            this.lblCuantos.Size = new System.Drawing.Size(52, 13);
-            this.lblCuantos.TabIndex = 9;
-            this.lblCuantos.Text = "Cuantos?";
-            // 
-            // TxtBoxCuantos
-            // 
-            this.TxtBoxCuantos.Location = new System.Drawing.Point(268, 10);
-            this.TxtBoxCuantos.Name = "TxtBoxCuantos";
-            this.TxtBoxCuantos.Size = new System.Drawing.Size(100, 20);
-            this.TxtBoxCuantos.TabIndex = 10;
-            this.TxtBoxCuantos.TextChanged += new System.EventHandler(this.TxtBoxCuantos_TextChanged);
-            // 
-            // lblMensaje
-            // 
-            this.lblMensaje.AutoSize = true;
-            this.lblMensaje.Location = new System.Drawing.Point(202, 222);
-            this.lblMensaje.Name = "lblMensaje";
-            this.lblMensaje.Size = new System.Drawing.Size(0, 13);
-            this.lblMensaje.TabIndex = 11;
-            // 
             // ProyectoDos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(525, 261);
-            this.Controls.Add(this.lblMensaje);
-            this.Controls.Add(this.TxtBoxCuantos);
-            this.Controls.Add(this.lblCuantos);
             this.Controls.Add(this.btnCalc);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.lblPromedio);
@@ -180,9 +149,6 @@
         private System.Windows.Forms.Label lblPromedio;
         private System.Windows.Forms.Label lblResultado;
         private System.Windows.Forms.Button btnCalc;
-        private System.Windows.Forms.Label lblCuantos;
-        private System.Windows.Forms.TextBox TxtBoxCuantos;
-        private System.Windows.Forms.Label lblMensaje;
     }
 }
 
