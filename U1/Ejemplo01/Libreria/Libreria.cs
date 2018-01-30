@@ -20,5 +20,23 @@ namespace Libreria
             Console.Write("");
             Console.WriteLine(v);
         }
+        public decimal calProm(decimal[] m, Int16 k)
+        {
+            decimal resp=0;
+
+            for (Int16 i=0; i< k; i++)
+            {
+                resp += m[i];
+            }
+            resp = resp / k;
+
+            return resp;
+        }
+
+        public void mostrarPromProm(decimal calc)
+        {
+            Console.WriteLine("El promedio de los promedios es: {0} ", calc);
+            //Console.Write(calc);
+        }
     }
 }
