@@ -139,7 +139,8 @@ namespace DeTexto
         {
             DeTextoUno obj = new DeTextoUno();
             //obj.leeDatos();
-            obj.leeBinario();
+            //obj.leeBinario();
+            obj.EscribeDatos();
         }
     }
 }
