@@ -3,3 +3,8 @@ C:\Users\gcetzal\Documents\ASP\U1\Ejemplo01\Libreria\bin\Debug\Libreria.pdb
 C:\Users\gcetzal\Documents\ASP\U1\Ejemplo01\Libreria\obj\Debug\Libreria.csprojResolveAssemblyReference.cache
 C:\Users\gcetzal\Documents\ASP\U1\Ejemplo01\Libreria\obj\Debug\Libreria.dll
 C:\Users\gcetzal\Documents\ASP\U1\Ejemplo01\Libreria\obj\Debug\Libreria.pdb
+C:\Users\gcetzal\AppData\Roaming\Local Libraries\Local Documents\ASP-TEC\U1\Ejemplo01\Libreria\bin\Debug\Libreria.dll
+C:\Users\gcetzal\AppData\Roaming\Local Libraries\Local Documents\ASP-TEC\U1\Ejemplo01\Libreria\bin\Debug\Libreria.pdb
+C:\Users\gcetzal\AppData\Roaming\Local Libraries\Local Documents\ASP-TEC\U1\Ejemplo01\Libreria\obj\Debug\Libreria.csprojResolveAssemblyReference.cache
+C:\Users\gcetzal\AppData\Roaming\Local Libraries\Local Documents\ASP-TEC\U1\Ejemplo01\Libreria\obj\Debug\Libreria.dll
+C:\Users\gcetzal\AppData\Roaming\Local Libraries\Local Documents\ASP-TEC\U1\Ejemplo01\Libreria\obj\Debug\Libreria.pdb

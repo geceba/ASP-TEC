@@ -12,14 +12,16 @@ namespace ProyectoDos
 {
     public partial class ProyectoDos : Form
     {
-        Int16 a, b, c, cuantos, contador=0;
-        decimal d;
+        Int16 a, b, c, cuantos, contador;
+        decimal d, resultadoProm;
+        decimal[] guardarProm  = new decimal[10];
+
         Libreria.Libreria o = new Libreria.Libreria();
 
         public ProyectoDos()
         {
             InitializeComponent();
-            TxtBoxCuantos.Enabled = true;
+            elBueno.Enabled = true;
         }
 
         private void btnCalc_Click(object sender, EventArgs e)
@@ -29,8 +31,13 @@ namespace ProyectoDos
             lblResultado.Text = Convert.ToString(d);
 
             contador++;
-            if(contador == cuantos)
+            guardarProm[contador - 1] = d;
+
+            //lblMensaje.Text = Convert.ToString(""+cuantos);
+            if (contador == cuantos)
             {
+                resultadoProm = o.calProm(guardarProm, cuantos);
+                lblPromProm.Text = "" + resultadoProm;
                 lblMensaje.Text = Convert.ToString("Ya son N veces");
             } else
             {
@@ -41,9 +48,14 @@ namespace ProyectoDos
 
         }
 
+        private void elBueno_TextChanged(object sender, EventArgs e)
+        {
+            cuantos = Convert.ToInt16(elBueno.Text);
+        }
+
         private void TxBDatoA_TextChanged(object sender, EventArgs e)
         {
-            TxtBoxCuantos.Enabled = false;
+            elBueno.Enabled = false;
             if (TxBDatoA.Text!="")
             {
                 a = Convert.ToInt16(TxBDatoA.Text);
@@ -53,7 +65,7 @@ namespace ProyectoDos
 
         private void TxtBoxCuantos_TextChanged(object sender, EventArgs e)
         {
-            cuantos = Convert.ToInt16(TxtBoxCuantos.Text);
+            //cuantos = Convert.ToInt16(TxtBoxCuantos.Text);
         }
 
         private void TxBDatoB_TextChanged(object sender, EventArgs e)

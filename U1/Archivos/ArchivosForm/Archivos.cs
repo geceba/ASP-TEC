@@ -69,8 +69,21 @@ namespace ArchivosForm
             //StreamReader file;
             string file = ("C:/Users/gcetzal/Desktop/Agenda.txt");
             string[] reg = File.ReadAllLines(file);
-            //contador = Convert.ToInt16(reg.Length/4);
+            Int16 contador = Convert.ToInt16(reg.Length/4);
+
+            /*
+             * if(c < contador)
+             * {
+             *     ejecuta
+             * } 
+             * else 
+             * {
+             *  MessageBox("Son todas las listas")  ignore el comentario, estaba pensando
+             * }
+             */
             c++;
+            
+            if (c <= contador)
             {
                 if(c %2 == 0)
                 {
@@ -87,6 +100,12 @@ namespace ArchivosForm
                     txtTelefono.Text = reg[(c * c) + 2];
                     
                 }
+            }
+            else
+            {
+                MessageBox.Show("Lista Completa");
+                resetearTextBox();
+                c = 0;
             }
             //txtNombre.Text = ""+reg.Length;
         }
@@ -105,6 +124,11 @@ namespace ArchivosForm
             
 
             registro.Close();
+            resetearTextBox();
+        }
+
+        public void resetearTextBox()
+        {
             txtNombre.Text = "";
             txtSueldo.Text = "";
             txtTelefono.Text = "";

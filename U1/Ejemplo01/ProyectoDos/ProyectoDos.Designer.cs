@@ -38,8 +38,10 @@
             this.lblResultado = new System.Windows.Forms.Label();
             this.btnCalc = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.TxtBoxCuantos = new System.Windows.Forms.TextBox();
             this.lblMensaje = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.lblPromProm = new System.Windows.Forms.Label();
+            this.elBueno = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // valor1
@@ -129,28 +131,48 @@
             this.label1.TabIndex = 9;
             this.label1.Text = "Cuantas veces?";
             // 
-            // TxtBoxCuantos
-            // 
-            this.TxtBoxCuantos.Location = new System.Drawing.Point(268, 20);
-            this.TxtBoxCuantos.Name = "TxtBoxCuantos";
-            this.TxtBoxCuantos.Size = new System.Drawing.Size(100, 20);
-            this.TxtBoxCuantos.TabIndex = 10;
-            // 
             // lblMensaje
             // 
             this.lblMensaje.AutoSize = true;
-            this.lblMensaje.Location = new System.Drawing.Point(247, 217);
+            this.lblMensaje.Location = new System.Drawing.Point(229, 228);
             this.lblMensaje.Name = "lblMensaje";
             this.lblMensaje.Size = new System.Drawing.Size(0, 13);
             this.lblMensaje.TabIndex = 11;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(162, 204);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(113, 13);
+            this.label2.TabIndex = 12;
+            this.label2.Text = "Promedio de Promedio";
+            // 
+            // lblPromProm
+            // 
+            this.lblPromProm.AutoSize = true;
+            this.lblPromProm.Location = new System.Drawing.Point(331, 204);
+            this.lblPromProm.Name = "lblPromProm";
+            this.lblPromProm.Size = new System.Drawing.Size(0, 13);
+            this.lblPromProm.TabIndex = 13;
+            // 
+            // elBueno
+            // 
+            this.elBueno.Location = new System.Drawing.Point(268, 20);
+            this.elBueno.Name = "elBueno";
+            this.elBueno.Size = new System.Drawing.Size(100, 20);
+            this.elBueno.TabIndex = 14;
+            this.elBueno.TextChanged += new System.EventHandler(this.elBueno_TextChanged);
             // 
             // ProyectoDos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(525, 261);
+            this.Controls.Add(this.elBueno);
+            this.Controls.Add(this.lblPromProm);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.lblMensaje);
-            this.Controls.Add(this.TxtBoxCuantos);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnCalc);
             this.Controls.Add(this.lblResultado);
@@ -180,8 +202,10 @@
         private System.Windows.Forms.Label lblResultado;
         private System.Windows.Forms.Button btnCalc;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox TxtBoxCuantos;
         private System.Windows.Forms.Label lblMensaje;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblPromProm;
+        private System.Windows.Forms.TextBox elBueno;
     }
 }
 
